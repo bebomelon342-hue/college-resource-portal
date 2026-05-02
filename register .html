@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page-center bg-gradient-to-br from-indigo-950 to-purple-900">
+<div class="glass-card form-box text-white">
+  <h2 class="title">Create Account</h2>
+  <form id="registerForm">
+    <input type="text" id="name" placeholder="Full Name" required>
+    <input type="email" id="email" placeholder="College Email" required>
+    <select id="semester">
+      <option>Semester 1</option>
+      <option>Semester 2</option>
+      <option>Semester 3</option>
+      <option>Semester 4</option>
+      <option>Semester 5</option>
+      <option>Semester 6</option>
+    </select>
+    <input type="password" id="password" placeholder="Password" required>
+    <button type="submit" class="btn-primary w-full">Register</button>
+  </form>
+</div>
+<script type="module" src="js/auth.js"></script>
+</body>
+</html>
